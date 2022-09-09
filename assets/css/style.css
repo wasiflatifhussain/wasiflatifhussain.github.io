@@ -679,20 +679,39 @@ a.whatsapp-bg:hover {color: #075e54;}
     /* padding-right: 100px; */
 }
 
+@media (max-width: 1200px) {
+    .main-img {
+        width: 340px;
+        height: 80px;
+        padding-bottom: 165px;
+    }
+
+
+}
 @media (max-width: 1028px) {
     .main-img {
         width: 320px;
-        height: 100px;
+        height: 80px;
         padding-bottom: 165px;
     }
 
 
 }
 
-@media (max-width: 950px) {
+@media (max-width: 980px) {
+    .main-img {
+        width: 240px;
+        height: 80px;
+        padding-bottom: 165px;
+    }
+
+
+}
+
+@media (max-width: 800px) {
     .main-img {
         width: 200px;
-        height: 100px;
+        height: 80px;
         padding-bottom: 165px;
     }
 
