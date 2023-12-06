@@ -761,6 +761,17 @@ a.whatsapp-bg:hover {color: #075e54;}
     transform: scale(1.1);
 }
 
+.gpaid2 {
+    width: 98%;
+    height: 43%;
+    margin-top: 20px;
+    border-radius: 1rem;
+    transition: transform 0.6s
+}
+.gpaid2:hover {
+    transform: scale(1.1);
+}
+
 .gpaid-boss {
     width: 80%;
 }
@@ -776,6 +787,19 @@ a.whatsapp-bg:hover {color: #075e54;}
 }
 
 .gpaid1:hover {
+    transform: scale(1.1);
+}
+
+.gpaid31 {
+    width: 100%;
+    height: 45%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 1rem;
+    transition: transform 0.6s
+}
+
+.gpaid31:hover {
     transform: scale(1.1);
 }
 
