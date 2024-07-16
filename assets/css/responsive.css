@@ -130,6 +130,12 @@
 	.modal-header {
 		height: 350px;
 	}
+
+	.gpaid {
+		width: 40vh;
+		height: 25vh;
+		margin-bottom: 20px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -298,7 +304,7 @@
 	}
 
 	.hero h1 {
-		font-size: 32px
+		font-size: 32px;
 		margin-bottom: 10px;
 	}
 
@@ -315,6 +321,7 @@
 	================================================== */
 	.site-main {
 		margin-bottom: 140px;
+		padding: 50px;
 	}
 
 	/* site-section */
@@ -399,10 +406,21 @@
 	.site-footer .col-xs-12 {
 		text-align: center;
 	}
+
+	.service {
+		padding: 20px;
+	}
+
+
+	.gpaid {
+		width: 40vh;
+		height: 25vh;
+		margin-bottom: 20px;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 479px) {
+@media only screen and (max-width : 550px) {
 	.visible-xxs {
 		display: block;
 	}
@@ -413,16 +431,22 @@
 		margin-top: 10px;
 	}
 
+	.hero {
+		padding: 20px;
+	}
+	
+
 	/* SITEMAIN
 	================================================== */
 	.site-main {
 		margin-bottom: 180px;
+		padding: 50px;
 	}
 
 	/* Section: Portfolio */
 	.section-portfolio .col-xs-6 {
 		width: 100%;
-		padding: 0;
+		padding: 0px;
 	}
 
 	.section-portfolio .col-xs-6:nth-child(odd) {
@@ -460,5 +484,21 @@
 
 	.site-footer .col-xs-offset-3 {
 		margin-left: 0;
+	}
+
+	.service {
+		padding: 20px;
+	}
+
+	.work-container {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+	}
+
+	.gpaid {
+		width: 30vh;
+		height: 20vh;
+		margin-bottom: 20px;
 	}
 }
