@@ -411,10 +411,15 @@
 		padding: 20px;
 	}
 
+	/* .work-container {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+	} */
 
 	.gpaid {
-		width: 40vh;
-		height: 25vh;
+		width: 30vh;
+		height: 20vh;
 		margin-bottom: 20px;
 	}
 }
