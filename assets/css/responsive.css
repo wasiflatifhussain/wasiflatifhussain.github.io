@@ -25,6 +25,13 @@
 	.modal-header {
 		height: 400px;
 	}
+
+	.work-container {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+	}
+	
 	.gpaid {
 		width: 40vh;
 		height: 25vh;
