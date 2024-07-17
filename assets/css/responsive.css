@@ -25,6 +25,11 @@
 	.modal-header {
 		height: 400px;
 	}
+	.gpaid {
+		width: 40vh;
+		height: 25vh;
+		margin-bottom: 20px;
+	}
 }
 
 /* Medium Devices, Desktops */
